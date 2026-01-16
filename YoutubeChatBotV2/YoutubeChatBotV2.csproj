@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Credentials\client_secret_685961133498-b3816uml1lt5pvlfn24u39onoff8kb0v.apps.googleusercontent.com.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Credentials\client_secret_685961133498-b3816uml1lt5pvlfn24u39onoff8kb0v.apps.googleusercontent.com.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.73.0" />
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.73.0.4022" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+# --- C# SOURCE FILES ---
+*.cs
+
+# --- AMA ÖRNEK DOSYALARA İZİN VER ---
+!*.example.cs
+
+# --- BUILD ---
+bin/
+obj/
+
+# --- USER FILES ---
+*.user
+*.suo
+*.csproj.user
+
+# --- JSON CONFIGS (private) ---
+*.json
+!appsettings.example.json
+
+# --- CREDENTIALS (ÇOK ÖNEMLİ) ---
+Credentials/
+client_secret*.json
+
+# --- LOG ---
+*.log
+*.tmp
+*.bak
+
+# --- IDE ---
+.vs/
+.idea/
+*.swp
+
+# --- OS ---
+Thumbs.db
+.DS_Store
