@@ -228,7 +228,7 @@ Bu repository:
 
 **Kaynak kod talep üzerine paylaşılabilir.**
 
-📧 İletişim: [email@example.com]
+📧 İletişim: [akceliksercan@gmail.com]
 
 ---
 
